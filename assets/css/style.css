@@ -45,6 +45,7 @@ p {
     font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
     font-size: 20px;
 }
+
 /* Removed ".header" at start of line, "h1" is sufficient here */
 h1 {
     display: inline-block;
@@ -107,60 +108,29 @@ h1 {
     max-height: 200px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:  'Trebuchet MS', 'Calibri', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Consolidated <h3> styles, <img> styles, and div styles into unified tags rather than separate classes and IDs for each element */
+aside div{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+aside h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+aside img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
