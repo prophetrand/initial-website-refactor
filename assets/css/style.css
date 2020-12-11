@@ -9,6 +9,26 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Moved these float tags for accessibility purposes. Grouped with the "a" and "p" tags to set expectation that these classes will be used at various places in the HTML document.*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +36,15 @@ body {
     color: #ffffff;
 }
 
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+
+    /* Added quotations to Calibri and moved Trebuchet MS to first priority to match header styling*/
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
+    font-size: 20px;
+}
 /* Removed ".header" at start of line, "h1" is sufficient here */
 h1 {
     display: inline-block;
@@ -25,14 +54,6 @@ h1 {
 /* Consolidated this tag from ".header h1 .seo", and changed it from a class to an ID in the HTML */
 #seo {
     color: #d9dcd6;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
 
 /* The code snippet below was included intially, but is not necessary due to the styling done directly below in ".header ul li" */
@@ -46,15 +67,6 @@ h1 {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 /* Added background color here in case image doesn't load properly*/
 .hero {
     height: 800px;
@@ -64,16 +76,6 @@ p {
     background-color: #2589bd;
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 #services {
