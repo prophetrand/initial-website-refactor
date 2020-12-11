@@ -1,7 +1,7 @@
 # Initial Website Refactor - Horiseon
 
 ## Description
-Welcome! For this project I have refactored the code for a single HTML webpage that represents a fictional company's home page. The HTML and CSS initially provided for the site were mostly functional, but included improper HTML semantics, broken links, inefficient syntax, and a lack of comments describing code functionality. In the process of refactoring the code to amend these errors, I have improved the codeblock's adherence to accessibility standards so that the site is better suited for SEO, or search engine optimization.
+Welcome! 
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)

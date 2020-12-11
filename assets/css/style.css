@@ -71,7 +71,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+#services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -163,15 +163,15 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+#search-engine-optimization img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+#social-media-marketing img {
     max-height: 200px;
 }
 
