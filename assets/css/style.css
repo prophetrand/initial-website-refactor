@@ -19,8 +19,8 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* Consolidated this tag from .header h1 .seo, and changed it from a class to an id in the HTML */
+#seo {
     color: #d9dcd6;
 }
 
@@ -50,11 +50,13 @@ p {
     font-size: 16px;
 }
 
+/* Added background color here in case image doesn't load properly*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
+    background-color: #2589bd;
     background-size: cover;
     background-position: center;
 }
@@ -133,8 +135,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/* Changed this tag from a class to an ID, since it is only used once. Doing the same for #online-reputation-management and #social-media-marketing*/
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +145,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +154,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;

@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     
     <!--Updated title from "website" to something more descriptive-->
-    <title>Horiseon</title>
+    <title>Horiseon | Home</title>
 </head>
 
 <body>
     <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<span id="seo">seo</span>n</h1>
         <div>
             <ul>
                 <li>
@@ -26,17 +26,22 @@
             </ul>
         </div>
     </div>
+    
+    <!-- This division refers to the main central image banner, that is defined in the CSS to have 100% width on the page -->
     <div class="hero"></div>
+
     <div class="content">
 
-        <!-- Added id tag so that header link properly directs to this section -->
-        <div id="search-engine-optimization" class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+        <!-- Added id tag so that header link properly directs to this section. Removed individual class tag as the id will serve the function more appropriately -->
+        <div id="search-engine-optimization">
+            <!-- <img src="./assets/images/search-engine-optimization.jpg" class="float-left" /> -->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
+
+        <!-- Similarly removed class tag as only id tag is necessary here, and fixed in CSS accordingly -->
         <div id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
